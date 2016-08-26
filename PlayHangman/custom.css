@@ -1,0 +1,66 @@
+body{
+	/*margin: 35em;*/
+}
+
+.letters, .hangman {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.letters h1, .gameMessages {
+	 background-color: rgba(255, 255, 255, .6);
+	 padding: 10px;
+}
+
+.col-md-8 {
+	text-align: center;
+}
+
+h2 {
+	padding-bottom: 30px;
+	color: #4d4d4d;
+}
+
+.correctKey {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+.blank {
+	padding: 5px 10px;
+	margin: 1px;
+	background-color: #e64f62; 
+	text-align: center;
+	font-size: 40px;
+	color: #fff;
+	-webkit-box-shadow: 3px 4px 2px -4px rgba(77,77,77,0.54);
+	-moz-box-shadow: 3px 4px 2px -4px rgba(77,77,77,0.54);
+	box-shadow: 3px 4px 2px -4px rgba(77,77,77,0.54);
+}
+
+.gameMessages {
+	color: #4d4d4d;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.alert {
+	font-weight: bold;
+	color: #e64f62;
+
+}
+
+.guessedLetters h5 {
+	color: #e64f62;
+	font-weight: bold; 
+	font-size: 16px;
+}
+
+.btn-block {
+	font-weight: bold;
+	font-size: 	24px;
+	padding: 20px;
+}
